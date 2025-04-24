@@ -1,0 +1,294 @@
+# Translation of WordPress - 4.7.x - Continents & Cities in Dzongkha
+# This file is distributed under the same license as the WordPress - 4.7.x - Continents & Cities package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2016-05-04 10:15:13+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: GlotPress/2.3.0-alpha\n"
+"Language: dz_BT\n"
+"Project-Id-Version: WordPress - 4.7.x - Continents & Cities\n"
+
+#: wp-admin/includes/continents-cities.php:154
+msgid "Jamaica"
+msgstr "ཇཱ་མཻ་ཀ།"
+
+#: wp-admin/includes/continents-cities.php:162
+msgid "La Paz"
+msgstr "ལ་པཱཛ།"
+
+#: wp-admin/includes/continents-cities.php:163
+msgid "Lima"
+msgstr "ལི་མ།"
+
+#: wp-admin/includes/continents-cities.php:168
+msgid "Managua"
+msgstr "མ་ན་གུ་ཝ།"
+
+#: wp-admin/includes/continents-cities.php:170
+msgid "Marigot"
+msgstr "མ་རི་གོཊ།"
+
+#: wp-admin/includes/continents-cities.php:173
+msgid "Mazatlan"
+msgstr "མ་ཛཱཊ་ལཱན།"
+
+#: wp-admin/includes/continents-cities.php:176
+msgid "Merida"
+msgstr "མ་རི་ཌ།"
+
+#: wp-admin/includes/continents-cities.php:178
+msgid "Mexico City"
+msgstr "མེཀ་སི་ཀོ་ སི་ཊི།"
+
+#: wp-admin/includes/continents-cities.php:195
+msgid "Panama"
+msgstr "པ་ན་མ།"
+
+#: wp-admin/includes/continents-cities.php:197
+msgid "Paramaribo"
+msgstr "པ་ར་མ་རི་བྷོ།"
+
+#: wp-admin/includes/continents-cities.php:199
+msgid "Port of Spain"
+msgstr "པོོཊ་ ཨོཕ་ ཨིས་པེེན།"
+
+#: wp-admin/includes/continents-cities.php:213
+msgid "Santiago"
+msgstr "སཱན་ཊི་ཡ་གྷོ།"
+
+#: wp-admin/includes/continents-cities.php:214
+msgid "Santo Domingo"
+msgstr "སཱན་ཊོ་ ཌོ་མིང་གྷོ།"
+
+#: wp-admin/includes/continents-cities.php:226
+msgid "Tegucigalpa"
+msgstr "ཊི་གུ་སི་གཱལ་པ།"
+
+#: wp-admin/includes/continents-cities.php:258
+msgid "Almaty"
+msgstr "ཨཱལ་མ་ཊི།"
+
+#: wp-admin/includes/continents-cities.php:259
+msgid "Amman"
+msgstr "ཨ་མཱན།"
+
+#: wp-admin/includes/continents-cities.php:263
+msgid "Ashgabat"
+msgstr "ཨཱཤ་གཱ་བྷཊ།"
+
+#: wp-admin/includes/continents-cities.php:265
+msgid "Baghdad"
+msgstr "བྷག་ཌཌ།"
+
+#: wp-admin/includes/continents-cities.php:266
+msgid "Bahrain"
+msgstr "བྷ་རེན།"
+
+#: wp-admin/includes/continents-cities.php:267
+msgid "Baku"
+msgstr "བྷ་ཀུ།"
+
+#: wp-admin/includes/continents-cities.php:268
+msgid "Bangkok"
+msgstr "བྷེང་ཀོཀ།"
+
+#: wp-admin/includes/continents-cities.php:270
+msgid "Beirut"
+msgstr "བྷེ་རུཊ།"
+
+#: wp-admin/includes/continents-cities.php:272
+msgid "Brunei"
+msgstr "བྷྲུ་ནའི།"
+
+#: wp-admin/includes/continents-cities.php:278
+msgid "Colombo"
+msgstr "ཀོ་ལོམ་བྷོ།"
+
+#: wp-admin/includes/continents-cities.php:281
+msgid "Dhaka"
+msgstr "ཌཱ་ཀ།"
+
+#: wp-admin/includes/continents-cities.php:282
+msgid "Dili"
+msgstr "ཌི་ལི།"
+
+#: wp-admin/includes/continents-cities.php:284
+msgid "Dushanbe"
+msgstr "ཌུ་ཤཱན་བེ།"
+
+#: wp-admin/includes/continents-cities.php:289
+msgid "Hong Kong"
+msgstr "ཧོང་ཀོང།"
+
+#: wp-admin/includes/continents-cities.php:293
+msgid "Jakarta"
+msgstr "ཇཱ་ཀར་ཊ།"
+
+#: wp-admin/includes/continents-cities.php:294
+msgid "Jayapura"
+msgstr "ཇ་ཡ་པུ་ར།"
+
+#: wp-admin/includes/continents-cities.php:295
+msgid "Jerusalem"
+msgstr "ཇུ་རུ་ས་ལེམ།"
+
+#: wp-admin/includes/continents-cities.php:296
+msgid "Kabul"
+msgstr "ཀ་བྷུལ།"
+
+#: wp-admin/includes/continents-cities.php:299
+msgid "Kashgar"
+msgstr "ཀཱཤ་གར།"
+
+#: wp-admin/includes/continents-cities.php:301
+msgid "Katmandu"
+msgstr "ཀཱཊ་མཱན་ཌུ།"
+
+#: wp-admin/includes/continents-cities.php:307
+msgid "Kuwait"
+msgstr "ཀུ་ཝེཊ།"
+
+#: wp-admin/includes/continents-cities.php:312
+msgid "Manila"
+msgstr "མ་ནི་ལ།"
+
+#: wp-admin/includes/continents-cities.php:313
+msgid "Muscat"
+msgstr "མཱས་ཀེཊ།"
+
+#: wp-admin/includes/continents-cities.php:314
+#: wp-admin/includes/continents-cities.php:464
+msgid "Nicosia"
+msgstr "ནི་ཀ་སི་ཡ།"
+
+#: wp-admin/includes/continents-cities.php:318
+msgid "Oral"
+msgstr "ཨོ་རཱལ།"
+
+#: wp-admin/includes/continents-cities.php:319
+msgid "Phnom Penh"
+msgstr "ཕེ་ནོམ་པེན།"
+
+#: wp-admin/includes/continents-cities.php:321
+msgid "Pyongyang"
+msgstr "པི་ཡོང་ཡང།"
+
+#: wp-admin/includes/continents-cities.php:322
+msgid "Qatar"
+msgstr "ཀ་ཊར།"
+
+#: wp-admin/includes/continents-cities.php:324
+msgid "Rangoon"
+msgstr "རང་གྷུན།"
+
+#: wp-admin/includes/continents-cities.php:325
+msgid "Riyadh"
+msgstr "རི་ཡཱཌ།"
+
+#: wp-admin/includes/continents-cities.php:329
+msgid "Seoul"
+msgstr "སོའུལ།"
+
+#: wp-admin/includes/continents-cities.php:331
+msgid "Singapore"
+msgstr "སིང་ག་པོར།"
+
+#: wp-admin/includes/continents-cities.php:333
+msgid "Taipei"
+msgstr "ཊའི་པེ།"
+
+#: wp-admin/includes/continents-cities.php:334
+msgid "Tashkent"
+msgstr "ཊཱཤ་ཀེནཊ།"
+
+#: wp-admin/includes/continents-cities.php:335
+msgid "Tbilisi"
+msgstr "ཊི་བི་ལི་སི།"
+
+#: wp-admin/includes/continents-cities.php:336
+msgid "Tehran"
+msgstr "ཊེ་རཱན།"
+
+#: wp-admin/includes/continents-cities.php:339
+msgid "Thimphu"
+msgstr "ཐིམ་ཕུག"
+
+#: wp-admin/includes/continents-cities.php:340
+msgid "Tokyo"
+msgstr "ཊོ་ཀི་ཡོ།"
+
+#: wp-admin/includes/continents-cities.php:367
+msgid "Australia"
+msgstr "ཨཱོས་ཊེ་ལི་ཡ།"
+
+#: wp-admin/includes/continents-cities.php:382
+msgid "North"
+msgstr "ནོརཊ།"
+
+#: wp-admin/includes/continents-cities.php:388
+msgid "Victoria"
+msgstr "བིཀ་ཊོ་རི་ཡ།"
+
+#: wp-admin/includes/continents-cities.php:444
+msgid "Dublin"
+msgstr "ཌབ་ལིན།"
+
+#: wp-admin/includes/continents-cities.php:134
+msgid "Grenada"
+msgstr "གྲྀ་ནེ་ཌྲ།"
+
+#: wp-admin/includes/continents-cities.php:135
+msgid "Guadeloupe"
+msgstr "གཱོོ་ཌྲི་ལཱོཔ།"
+
+#: wp-admin/includes/continents-cities.php:136
+msgid "Guatemala"
+msgstr "གཱཽ་ཏི་མཱ་ལ།"
+
+#: wp-admin/includes/continents-cities.php:137
+msgid "Guayaquil"
+msgstr "གཱོོ་ཡཱ་ཀུའུལ།"
+
+#: wp-admin/includes/continents-cities.php:138
+msgid "Guyana"
+msgstr "གཱ་ཡཱ་ན།"
+
+#: wp-admin/includes/continents-cities.php:139
+msgid "Halifax"
+msgstr "ཧེ་ལི་ཕེགསི།"
+
+#: wp-admin/includes/continents-cities.php:140
+msgid "Havana"
+msgstr "ཧ་བ་ན།"
+
+#: wp-admin/includes/continents-cities.php:141
+msgid "Hermosillo"
+msgstr "ཧཱར་མོ་སི་ལཽ།"
+
+#: wp-admin/includes/continents-cities.php:142
+msgid "Indiana"
+msgstr "ཨིན་ཌི་ཡ་ན།"
+
+#: wp-admin/includes/continents-cities.php:143
+#: wp-admin/includes/continents-cities.php:151
+msgid "Indianapolis"
+msgstr "ཨིན་ཌི་ཡཱན་ཨེ་པོ་ལིསི།"
+
+#: wp-admin/includes/continents-cities.php:144
+msgid "Knox"
+msgstr "ནོགསི།"
+
+#: wp-admin/includes/continents-cities.php:145
+msgid "Marengo"
+msgstr "མ་རེན་གོ།"
+
+#: wp-admin/includes/continents-cities.php:147
+msgid "Tell City"
+msgstr "ཊེལ་ སི་ཊི།"
+
+#: wp-admin/includes/continents-cities.php:148
+msgid "Vevay"
+msgstr "ཝི་ཝཱེ།"
