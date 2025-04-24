@@ -1,0 +1,12 @@
+<svg width="342" height="90" viewBox="0 0 342 90" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g opacity="0.3" clip-path="url(#clip0_369_182)">
+<circle cx="224.833" cy="-135.166" r="224.167" transform="rotate(90 224.833 -135.166)" stroke="#FDFCF7" stroke-width="2"/>
+<circle cx="149.304" cy="-175.087" r="224.167" transform="rotate(90 149.304 -175.087)" stroke="#FDFCF7" stroke-width="2"/>
+<circle cx="353.833" cy="-195.166" r="224.167" transform="rotate(90 353.833 -195.166)" stroke="#FDFCF7" stroke-width="2"/>
+</g>
+<defs>
+<clipPath id="clip0_369_182">
+<rect width="90" height="342" fill="white" transform="translate(342) rotate(90)"/>
+</clipPath>
+</defs>
+</svg>

@@ -1,0 +1,89 @@
+@use 'global/colors' as *;
+
+// Not Found Page
+.page-404 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    text-align: center;
+    background: #fdfcf7;
+
+    @media (max-width: 991px) {
+        height: 500px;
+    }
+
+    .page-404-container {
+        width: 100%;
+        p {
+            margin: 10px 0;
+        }
+    
+        .error-code {
+            display: block;
+            font-family: 'Krona One';   
+            font-weight: 900;
+            font-size: 12em;
+            color:  #363531;
+            margin: 0;
+
+            @media (max-width: 991px) {
+                font-size: 5em;
+            }
+        }
+
+        .error-message {
+            font-size: 26px;
+            font-weight: 600;
+            color:  #363531;
+
+            @media (max-width: 991px) {
+                font-size: 20px;
+            }
+        }
+
+        .help-text {
+            color:  #363531;
+            margin-bottom: 20px;
+            font-size: 16px;
+        }
+
+        .page-404-btn {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            .primary-btn {
+                font-style: normal;
+                font-weight: 700;
+                font-size: 14px;
+                line-height: 17px;
+                text-decoration: none;
+                padding: 16px 15px;
+                background: #363531;
+                color: #fdfcf7;
+                border-radius: 8px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                transition: 1s;
+
+                &:hover {
+                    color: #363531;
+                    border: 1px solid #363531;
+                    background: transparent;
+                    cursor: pointer;
+                    transition: 0.5s;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 1060px) {
+    .page-404-container {
+        flex-direction: column;
+        padding: 0 10px;
+        margin: 0 20px;
+    }
+}

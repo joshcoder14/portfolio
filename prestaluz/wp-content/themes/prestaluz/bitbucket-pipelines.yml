@@ -1,0 +1,28 @@
+pipelines:
+  branches:
+    dev:
+      - step:
+          name: Deploy to staging
+          deployment: staging
+          script:
+          - pipe: atlassian/ssh-run:0.4.1
+            variables:
+              SSH_USER: 'root'
+              SERVER: '209.38.96.80'
+              MODE: 'script'
+              COMMAND: 'staging-deploy.sh'
+              ENV_VARS: >-
+                OVERWRITE_ENVIRONMENT='staging'
+    # main:
+    #   - step:
+    #       name: Deploy to production
+    #       deployment: production
+    #       script:
+    #       - pipe: atlassian/ssh-run:0.4.1
+    #         variables:
+    #           SSH_USER: 'root'
+    #           SERVER: '152.42.136.81'
+    #           MODE: 'script'
+    #           COMMAND: 'production-deploy.sh'
+    #           ENV_VARS: >-
+    #             OVERWRITE_ENVIRONMENT='production'

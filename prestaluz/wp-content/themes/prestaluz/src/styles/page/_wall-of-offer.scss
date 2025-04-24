@@ -1,0 +1,345 @@
+.offer_wall {
+    padding-top: 140px;
+
+    @media(max-width: 768px) {
+        padding-top: 96px;
+    }
+
+    .offer_container {
+        .offer_wrapper {
+            .heading {
+                .title {
+                    margin-top: 0;
+                    margin-bottom: 32px;
+                }
+
+                .subtext {
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 22px;
+                }
+            }
+        }
+    }
+}
+
+.offers_list {
+    padding: 48px 0;
+    width: auto;
+    height: auto;
+
+    .list_container {
+        width: auto;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        gap: 24px;
+
+        @media(max-width: 1150px) {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+        }
+
+        @media(max-width: 871px) {
+            grid-template-columns: repeat(2, 1fr);
+        }
+
+        @media(max-width: 560px) {
+            grid-template-columns: repeat(1, 1fr);
+        }
+
+        .offer_card {
+            width: auto;
+            height: auto;
+            padding: 32px;
+            border: 1px solid #363531;
+            border-radius: 24px;
+
+            @media(max-width: 1150px) {
+                padding: 24px;
+            }
+
+            .card_container {
+                width: auto;
+                height: auto;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                gap: 24px;
+
+                @media(max-width: 1150px) {
+                    flex-direction: column;
+                }
+                
+                .offer_image {
+                    width: auto;
+                    height: auto;
+                    
+                    img {
+                        width: 148px;
+                        height: auto;
+                        object-fit: contain;
+                    }
+                }
+
+                .offer_details {
+                    width: auto;
+                    height: auto;
+
+                    @media(max-width: 1150px) {
+                        width: 100%;
+                    }
+
+                    &.style-2 {
+                        ._flex {
+                            gap: 8px;
+
+                            .row {
+                                .label {
+                                    width: 150px;
+                                }
+                            }
+                        }
+                    }
+
+                    ._flex {
+                        width: auto;
+                        height: auto;
+                        display: flex;
+                        flex-direction: column;
+                        gap: 10px;
+
+                        .row {
+                            display: flex;
+                            flex-direction: row;
+                            align-items: center;
+                            gap: 16px;
+
+                            @media(max-width: 1150px) {
+                                display: grid;
+                                grid-template-columns: repeat(2, 1fr);
+                            }
+
+                            .details_head {
+                                font-weight: 700;
+                                font-size: 16px;
+                                line-height: 24px;
+                            }
+
+                            .label {
+                                width: 112px;
+                                height: auto;
+                                font-weight: 400;
+                                font-size: 16px;
+                                line-height: 26px;
+                                opacity: 0.4;
+
+                                @media(max-width: 1150px) {
+                                    width: auto;
+                                }
+                            }
+
+                            .value {
+                                font-family: 'Spline Sans', sans-serif;
+                                font-weight: 500;
+                                font-size: 16px;
+                                line-height: 20px;
+                                color: #363531;
+                            }
+                        }
+                    }
+                }
+
+                .keyword_contents {
+                    width: auto;
+                    display: flex;
+                    flex-direction: column;
+                    gap: 15px;
+
+                    @media(max-width: 1150px) {
+                        width: 100%;
+                        gap: 12px;
+                    }
+
+                    .content_item {
+                        width: auto;
+                        display: flex;
+                        flex-direction: row;
+                        align-items: center;
+                        gap: 12px;
+
+                        img {
+                            width: 16px;
+                            height: auto;
+                            object-fit: contain;
+                        }
+
+                        span {
+                            font-weight: 400;
+                            font-size: 16px;
+                            line-height: 22px;
+                            color: #363531;
+                        }
+                    }
+                }
+
+                .offer_btn {
+                    width: auto;
+                    height: auto;
+                    display: flex;
+                    flex-direction: column;
+                    gap: 16px;
+
+                    @media(max-width: 1150px) {
+                        width: 100%;
+
+                        &.style-2 {
+                            flex-direction: row;
+                            gap: 32px;
+                        }
+                    }
+
+                    .apply_now_btn,
+                    .see_loan_btn {
+                        transition: all 0.3s ease-in-out;
+                        
+                        span {
+                            font-size: 14px;
+                            font-weight: 600;
+                            line-height: 28px;
+                            padding: 6px 16px;
+                        }
+                    }
+
+                    .apply_now_btn {
+                        position: relative;
+                        width: 180px;
+                        height: 48px;
+                        display: flex;
+                        align-items: center;
+                        text-decoration: none;
+                        background: #363531;
+                        border-radius: 100px;
+
+                        span {
+                            color: #FDFCF7;
+                        }
+
+                        img {
+                            display: flex;
+                            margin-left: auto;
+                            background: #fdfcf7;
+                            padding: 10px;
+                            border-radius: 50%;
+                            margin-right: 6px;
+                        }
+
+                        &:hover {
+                            background: #fdfcf7;
+                            box-shadow: inset 0px 0px 0px 1px #363531;
+                            transition: all 0.3s ease-in-out;
+
+                            span {
+                                color: #363531;
+                            }
+                        }
+                    }
+
+                    .see_loan_btn {
+                        position: relative;
+                        width: 180px;
+                        height: 48px;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        text-decoration: none;
+                        border: 1px solid #363531;
+                        border-radius: 100px;
+
+                        span {
+                            color: #363531;
+                        }
+
+                        &:hover {
+                            background: #363531;
+
+                            span {
+                                color: #fdfcf7;
+                            }
+                        }
+                    }
+
+                    .apply_now_btn,
+                    .see_loan_btn {
+                        @media(max-width: 1150px) {
+                            width: 100%;
+                        }
+                    }
+
+                    .star_rating {
+                        display: flex;
+                        gap: 8px;
+                        width: auto;
+                        height: auto;
+                        margin: auto;
+
+                        img {
+                            width: 16px;
+                            height: 16px;
+                            object-fit: contain;
+                        }
+
+                        .rating {
+                            display: flex;
+                            gap: 5px;
+
+                            .rate,
+                            .overall_rate {
+                                font-family: 'Spline Sans', sans-serif;
+                                font-size: 16px;
+                                font-weight: 500;
+                                line-height: 20px;
+                            }
+
+                            .rate {
+                                color: #363531;
+                            }
+
+                            .overall_rate {
+                                color: #363531;
+                                opacity: 0.4;
+                            }
+                        }
+                    }
+                }
+
+                .separator {
+                    width: 1px;
+                    height: 112px;
+                    background: #363531;
+                    opacity: 0.2;
+
+                    @media(max-width: 1150px) {
+                        display: none;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.other_financial_products {
+    padding-top: 52px;
+    padding-bottom: 100px;
+
+    .container {
+        .wrapper {
+            .heading {
+                .title {
+                    margin-top: 0;
+                    margin-bottom: 48px;
+                }
+            }
+        }
+    }
+}
