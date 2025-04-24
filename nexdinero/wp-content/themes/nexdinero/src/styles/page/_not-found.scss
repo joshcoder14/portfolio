@@ -1,0 +1,80 @@
+@use 'global/colors' as *;
+
+// Not Found Page
+.page-404 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    text-align: center;
+    background: $color__background_body;
+
+    @media (max-width: 991px) {
+        height: 500px;
+    }
+
+    .page-404-container {
+        width: 100%;
+        p {
+            margin: 10px 0;
+        }
+    
+        .error-code {
+            display: block;
+            font-family: 'Krona One';   
+            font-weight: 900;
+            font-size: 12em;
+            color:  $color__text_main;
+            margin: 0;
+        }
+
+        .error-message {
+            font-size: 26px;
+            font-weight: 600;
+            color:  $color__text_main;
+        }
+
+        .help-text {
+            color:  $color__text_main;
+            margin-bottom: 20px;
+        }
+
+        .page-404-btn {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            .primary-btn {
+                font-style: normal;
+                font-weight: 700;
+                font-size: 14px;
+                line-height: 17px;
+                text-decoration: none;
+                padding: 16px 15px;
+                background: $color__background_button;
+                color: $color__background_body;
+                border-radius: 8px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                transition: 1s;
+
+                &:hover {
+                    color: $color__background_button;
+                    border: 1px solid $color__background_button;
+                    background: transparent;
+                    cursor: pointer;
+                    transition: 0.5s;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 1060px) {
+    .page-404-container {
+        flex-direction: column;
+        padding: 0 10px;
+        margin: 0 20px;
+    }
+}

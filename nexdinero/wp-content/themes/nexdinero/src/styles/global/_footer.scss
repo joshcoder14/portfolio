@@ -1,0 +1,229 @@
+@use 'global/colors' as *;
+
+footer {
+    width: 100%;
+    height: auto;
+
+    @media (max-width: 991px) {
+        position: relative;
+        bottom: -20px;
+    }
+
+    .footer_container {
+        max-width: 1218px;
+        width: 95%;
+        margin: auto;
+        
+        border-radius: 12px 12px 0 0;
+
+        .footer_wrapper {
+            max-width: 1218px;
+            width: auto;
+            height: auto;
+            display: flex;
+            gap: 50px;
+            border-radius: 12px 12px 0 0;
+            padding: 80px;
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            margin: auto;
+            border-bottom: 0;
+            margin-bottom: -5px;
+
+            @media (max-width: 991px) {
+                padding: 40px;
+            }
+
+            @media (max-width: 768px) {
+                flex-direction: column;
+                padding: 40px 24px;
+            }
+        }
+    }
+}
+
+
+
+.footer_logo {
+    width: 100%;
+    display: flex;
+    justify-content: baseline;
+    align-items: baseline;
+    padding-top: 20px;
+    img {
+        width: 171px;
+        height: auto;
+        object-fit: contain;
+        transition: all 0.3s ease-in-out;
+
+        &:hover {
+            scale: 1.05;
+            transition: all 0.3s ease-in-out;
+        }
+    }
+}
+
+.contact {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+
+    .company_name,
+    .registration,
+    .address,
+    .email_add a {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 32px;
+        letter-spacing: 0.01em;
+    }
+
+    .company_name {
+        font-weight: 500;
+    }
+
+    .email_add {
+        text-decoration: none;
+        color: $color__text_link;
+        position: relative;
+        width: fit-content;
+
+        &::after {
+            content: "";
+            position: absolute;
+            bottom: -4px;
+            right: 0;
+            width: 0%;
+            height: 1.5px;
+            background: $color__text_link;;
+            transition: all .32s ease-out;
+        }
+
+        &:hover {
+            color: $color__text_link;
+
+            &::after {
+                left: 0;
+                width: 100%;
+            }
+        }
+    }
+}
+
+.terms_and_policies {
+    width: 100%;
+    display: flex;
+    justify-content: baseline;
+
+    ul {
+        display: flex;
+        flex-direction: column;
+        gap: 24px;
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        li {
+            a {
+                font-size: 16px;
+                font-weight: 400;
+                line-height: 27.2px;
+                text-decoration: none;
+                color: $color__text_main;
+            }
+        }
+    }
+}
+
+.text-white {
+    opacity: 1;
+    color: #ffffff;
+}
+
+.place-items-center {
+    place-items: center;
+}
+
+.bg-theme {
+    backdrop-filter: blur(38.0401611328125px);
+    box-shadow: 0px 3.8px 22.82px 0px #247CCE0D;
+    background: $color__background_body;
+}
+
+.grid {
+    display: grid;
+}
+
+.p-px {
+    padding: 1px;
+}
+
+.rounded-md {
+    border-radius: 12px 12px 0 0;
+}
+
+.overflow-hidden {
+    overflow: hidden;
+}
+
+.relative {
+    position: relative;
+}
+
+.glow {
+    animation: move 15s linear infinite;
+    offset-path: rect(0% auto 100% auto);
+    background: $color__background_button;
+    border: 1px solid $color__background_button;
+}
+
+.rotate-45 {
+    transform: rotate(45deg);
+    
+}
+
+.w-100 {
+    width: 100px;
+}
+
+.h-100 {
+    height: 100px;
+}
+
+.inset-0 {
+    inset: 0px;
+}
+
+.absolute {
+    position: absolute;
+}
+
+.z-10 {
+    z-index: 10;
+}
+
+.inline-block {
+    display: inline-block;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+article {
+    height: 320px;
+
+    section {
+        width: 1218px;
+        height: 100%;
+    }
+}
+  
+@keyframes move {
+    0% {
+        offset-distance: 0%;
+    }
+
+    100% {
+        offset-distance: 100%;
+    }
+}
