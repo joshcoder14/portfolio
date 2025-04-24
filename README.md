@@ -12,4 +12,3 @@
 
 <h3>💞️ Looking to collaborate on any specific team</h3>
 <h3>📫 You can reach me at johnrusselzeraus@gmail.com</h3>
-asdfasdf
