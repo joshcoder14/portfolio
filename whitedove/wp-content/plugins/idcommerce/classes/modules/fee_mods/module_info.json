@@ -1,0 +1,9 @@
+{
+  "title":"Fee Mods",
+  "short_desc":"Custom application fee settings for Enterprise platforms. Requires Stripe Connect.",
+  "doclink":"",
+  "status":"live",
+  "type":"module",
+  "requires": "ide",
+  "tags": "crowdfunding commerce"
+}

@@ -1,0 +1,54 @@
+.idcf-featured-project-block,
+.entry-content .idcf-featured-project-block,
+.entry .idcf-featured-project-block,
+.wp-block-idcf-blocks-featured-project .idcf-featured-project-block {
+	 @apply grid grid-cols-1 gap-y-6;
+ 
+	 h3, p {
+		 margin: 0;
+	 }
+ 
+	 .idcf-featured-project-block-first-row {
+		 @apply text-center;
+	 }
+ 
+	 .idcf-featured-project-block-second-row {
+		 @apply md:grid md:grid-cols-2 md:gap-x-6;
+ 
+		 .idcf-featured-project-share {
+			 @apply flex mt-4;
+ 
+			 & > p {
+				 @apply self-center mr-4;
+			 }
+ 
+			 & > div {
+				 @apply flex;
+				
+				 & > div {
+					 @apply m-1.5;
+					 width: 30px;
+					 height: 30px;
+				 }
+			 }
+		 }
+ 
+		 .idcf-action-button {
+			 @apply flex justify-center self-center text-center py-2 px-4;
+		 }
+	 }
+ }
+ 
+ .wp-block-idcf-blocks-featured-project .idcf-featured-project-block {
+	 .idcf-featured-project-meta {
+		 & > div,
+		 & > a {
+			 @apply mt-4;
+		 }
+ 
+		 & > div:nth-of-type(1) {
+			 margin-top: 0;
+		 }
+	 }
+ }
+ 

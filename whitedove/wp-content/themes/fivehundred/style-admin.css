@@ -1,0 +1,8 @@
+/* @group Theme Settings in Admin */
+
+#logo-preview img {
+	max-width: 200px;
+	max-height: 50px;
+}
+
+/* @end */

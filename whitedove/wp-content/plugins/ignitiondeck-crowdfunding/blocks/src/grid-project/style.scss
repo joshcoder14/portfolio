@@ -1,0 +1,59 @@
+.idcf-grid-projects-block,
+.entry-content .idcf-grid-projects-block,
+.entry .idcf-grid-projects-block {
+    @apply grid;
+    grid-column-gap: 30px;
+    grid-row-gap: 50px;
+
+    .idcf-grid-projects-block-single-first {
+        position: relative;
+
+        .idcf-grid-projects-block-single-img img {
+            border-style: none;
+        }
+
+        .idcf-grid-projects-block-single-tags {
+            font-size: 12px;
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            position: absolute;
+            right: 10px;
+            bottom: 7%;
+        }
+
+        .idcf-grid-projects-block-single-tags li,
+        .idcf-grid-projects-block-single-badge {
+            font-size: 12px;
+            color: #FFF;
+            display: inline-block;
+            margin: 0 0 0 10px !important;
+            padding: 3px;
+        }
+
+        .idcf-grid-projects-block-single-badge {
+            position: absolute;
+            top: 7%;
+        }
+    }
+
+    .idcf-grid-projects-block-single-progress-bar {
+        background: #f5f5f5;
+        margin-bottom: 1rem;
+
+        > div {
+            height: 3px;
+            max-width: 100%;
+        }
+    }
+
+    .idcf-grid-projects-block-single-info {
+        display: grid;
+        grid-template-columns: repeat(3, minmax(0px, 1fr));
+
+        span {
+            display: block;
+            font-weight: normal;
+        }
+    }
+}

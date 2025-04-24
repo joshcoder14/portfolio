@@ -1,0 +1,9 @@
+{
+  "title":"Maven",
+  "short_desc":"IgnitionDeck Maven",
+  "doclink":"",
+  "status":"test",
+  "type":"module",
+  "requires": "",
+  "tags": "accounts support"
+}

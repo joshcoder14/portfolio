@@ -1,0 +1,9 @@
+{
+  "title":"Stripe Checkout",
+  "short_desc":"Stripe Checkout is a Strong Customer Authentication (SCA) compliant payment portal hosted by Stripe.",
+  "doclink":"https://stripe.com/payments/checkout",
+  "status":"live",
+  "type":"module",
+  "requires": "idc",
+  "tags": "crowdfunding commerce gateways"
+}
