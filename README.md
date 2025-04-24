@@ -5,7 +5,7 @@
 - HTML/CSS, Javascript, PHP, Wordpress, ReactJs, MySQL, Git
 
 <h2>Responsive Design</h2>
-- Tailwind CSS, Bootstrap, Flexbox, CSS Grid 
+- CSS, Bootstrap, Flexbox, CSS Grid 
 
 <h2>CSS Preprocessors</h2>
 - SASS, LESS
