@@ -1,1 +1,0 @@
-jQuery(document).ready(function(){jQuery("#payment-form .pay_selector").length<=1?jQuery("#idc_checkout_extra_fields_anon").removeClass("hide"):jQuery(".pay_selector").click(function(){jQuery("#idc_checkout_extra_fields_anon").removeClass("hide")})});

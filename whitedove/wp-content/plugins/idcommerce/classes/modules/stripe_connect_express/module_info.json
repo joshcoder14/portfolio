@@ -1,9 +1,0 @@
-{
-  "title":"Stripe Connect Express",
-  "short_desc":"Stripe Express simplifies onboarding, account management, and identity verification for your platform.",
-  "doclink":"",
-  "status":"live",
-  "type":"module",
-  "requires": "ide",
-  "tags": "crowdfunding commerce gateways"
-}

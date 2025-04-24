@@ -1,9 +1,0 @@
-{
-  "title":"Password Recovery",
-  "short_desc":"Custom password recovery tool that keeps users away from the admin and on the front-end of your website.",
-  "doclink":"",
-  "status":"live",
-  "type":"module",
-  "requires": "idc",
-  "tags": "accounts"
-}

@@ -1,1 +1,0 @@
-console.log("Stripe Check Status:"+stripecheckout_enable),jQuery(document).ready(function(){stripecheckout_enable&&jQuery(".cc-gateway-chkbox").prop("disabled",!0)});

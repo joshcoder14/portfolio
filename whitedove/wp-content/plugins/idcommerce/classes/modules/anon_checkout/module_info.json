@@ -1,8 +1,0 @@
-{
-  "title":"Anonymous Checkout",
-  "short_desc":"Enable anonymous and in-memoriam donations with the ability to leave comments that show on the backer list.",
-  "doclink":"",
-  "status":"live",
-  "type":"module",
-  "requires": "idc"
-}

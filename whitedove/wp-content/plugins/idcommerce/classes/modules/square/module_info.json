@@ -1,9 +1,0 @@
-{
-  "title":"Square Gateway",
-  "short_desc":"Accept payments online via Square's card processing API.",
-  "doclink":"",
-  "status":"live",
-  "type":"module",
-  "requires": "idc",
-  "tags": "commerce gateways"
-}
