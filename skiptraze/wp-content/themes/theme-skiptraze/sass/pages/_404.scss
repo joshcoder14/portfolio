@@ -1,0 +1,80 @@
+.page-404 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+    text-align: center;
+    background: #FFFFFF;
+
+    @media (max-width: 991px) {
+        height: 500px;
+    }
+
+    .page-404-container {
+        width: 100%;
+        margin-top: -80px;
+        p {
+            margin: 10px 0;
+        }
+    
+        .error-code {
+            display: block;
+            font-family: $font__space-grotesk;   
+            font-weight: 900;
+            font-size: 50px;
+            color: $neutral-900;
+            margin-top: 0;
+        }
+
+        .error-message {
+            font-family: $font__inter;
+            font-size: 18px;
+            font-weight: 600;
+            color:  $neutral-900;
+        }
+
+        .help-text {
+            font-family: $font__inter;
+            color:  $neutral-900;
+            margin-bottom: 16px;
+        }
+
+        .page-404-btn {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            .primary-btn {
+                font-family: $font__inter;
+                font-style: normal;
+                font-weight: 700;
+                font-size: 14px;
+                line-height: 17px;
+                text-decoration: none;
+                padding: 16px 15px;
+                background: $primary500-main;
+                color: #FFFFFF;
+                border-radius: 8px;
+                // text-transform: capitalize;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                transition: 1s;
+
+                &:hover {
+                    background: $focus-ring-1px-primary-500;
+                    cursor: pointer;
+                    transition: 0.5s;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 1060px) {
+    .page-404-container {
+        flex-direction: column;
+        padding: 0 10px;
+        margin: 0 20px;
+    }
+}
