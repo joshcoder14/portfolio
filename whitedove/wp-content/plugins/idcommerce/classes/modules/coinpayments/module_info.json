@@ -1,0 +1,9 @@
+{
+  "title":"CoinPayments",
+  "short_desc":"Cryptocurrency Payment Gateway and Wallet.",
+  "doclink":"https://docs.ignitiondeck.com/article/148-coinpayments",
+  "status":"live",
+  "type":"module",
+  "requires": "idc",
+  "tags": "bitcoin crypto currency crowdfunding commerce gateways"
+}

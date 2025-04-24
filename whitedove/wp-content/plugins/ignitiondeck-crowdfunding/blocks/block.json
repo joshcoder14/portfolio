@@ -1,0 +1,98 @@
+{
+	"apiVersion": 2,
+	"name": "idcf-blocks/featured-project",
+	"version": "0.1.0",
+	"title": "Featured Project",
+	"category": "ignitiondeck",
+	"description": "An easy to place and configure block that allows a user to pick a specific project from their existing published.",
+	"supports": {
+		"html": false
+	},
+	"textdomain": "idcf_blocks",
+	"editorScript": "file:./build/index.js",
+	"editorStyle": "file:./build/index.css",
+	"style": "file:./build/style-index.css",
+	"attributes": {
+		"projectsSelected": {
+			"type": "integer",
+			"default": -1
+		},
+		"projectOptionsSelected": {
+			"type": "array",
+			"default": [ { "value": -1, "label": "" } ]
+		},
+		"raised": {
+			"type": "string",
+			"source": "text",
+			"selector": "span"
+		},
+		"projectTitle": {
+			"type": "string",
+			"default": ""
+		},
+		"projectDescription": {
+			"type": "string",
+			"default": ""
+		},
+		"projectTotal": {
+			"type": "string",
+			"default": ""
+		},
+		"projectPledges": {
+			"type": "string",
+			"default": ""
+		},
+		"projectDaysLeft": {
+			"type": "string",
+			"default": ""
+		},
+		"projectUrl": {
+			"type": "string",
+			"default": ""
+		},
+		"projectThumbnail": {
+			"type": "string",
+			"default": ""
+		},
+		"titleColor": {
+			"type": "string",
+			"default": "#000"
+		},
+		"descriptionColor": {
+			"type": "string",
+			"default": "#000"
+		},
+		"buttonColor": {
+			"type": "string",
+			"default": "#3182CE"
+		},
+		"buttonText": {
+			"type": "string",
+			"default": "#FFF"
+		},
+		"metaColor": {
+			"type": "string",
+			"default": "#000"
+		},
+		"imageAlignment": {
+			"type": "string",
+			"default": "0"
+		},
+		"userTwitter": {
+			"type": "string",
+			"default": "javascript:void(0)"
+		},
+		"userFacebook": {
+			"type": "string",
+			"default": "javascript:void(0)"
+		},
+		"userEmail": {
+			"type": "string",
+			"default": "javascript:void(0)"
+		},
+		"endType": {
+			"type": "string",
+			"default": ""
+		}
+	}
+}
