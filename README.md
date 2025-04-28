@@ -2,7 +2,14 @@
 <h3>👀 Detail-oriented web developer with 4+ years of experience in front-end development with a strong passion for creating dynamic, user-focused applications.</h3>
 
 <h2>🌱 Languages, Frameworks, Tools:</h2>
-- HTML/CSS, Javascript, PHP, Wordpress, ReactJs, MySQL, Git
+<p>- HTML/CSS</p>
+<p>- Javascript</p> 
+<p>- PHP </p>
+<p>- Wordpress </p>
+<p>- ReactJs</p>
+<p>- REST APIs</p>
+<p>- MySQL </p>
+<p>- Git</p>
 
 <h2>Responsive Design</h2>
 - CSS, Bootstrap, Flexbox, CSS Grid 
